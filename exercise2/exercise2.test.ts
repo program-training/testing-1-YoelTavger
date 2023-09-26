@@ -7,6 +7,6 @@ describe("exercise2", () => {
 
     const result: boolean = palindrome(str);
 
-    expect(result).toBe(true);
+    expect(result).toBeTruthy();
   });
 });
