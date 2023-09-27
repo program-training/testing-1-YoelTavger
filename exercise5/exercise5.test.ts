@@ -10,7 +10,7 @@ describe("exercise5", () => {
     expect(result).toBe(6);
   });
 
-  test("Is the total amount greater than 9", () => {
+  test("Is the total amount greater than 4", () => {
     expect(result).toBeGreaterThan(4);
   });
 });
